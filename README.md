@@ -25,3 +25,13 @@ The file named train_model.py finds the respective DataFrame upon entering the a
 ![model_trainer](https://user-images.githubusercontent.com/72550661/109695898-c1ae5e00-7b8c-11eb-86b2-cb39e1f6bdb4.PNG)
 
 Screenshot of train_model.py
+
+
+- **make predictions.py**
+
+
+## Project example using Foo Fighters setlists
+Predicted setlist:
+![setlist_prediction](https://user-images.githubusercontent.com/72550661/109697273-477ed900-7b8e-11eb-8137-18d9a13585ab.PNG)
+
+
