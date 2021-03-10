@@ -20,7 +20,7 @@ Example showing scraping of Foo Fighters setlists
 
 - **train_model.py**
 
-The file named train_model.py finds the respective DataFrame upon entering the artist name, preprocesses the data and brings it into the required shape for model training. All setlists are appended to one string which is then split into sequences. The songs names are transformed into unique integers representing them. A Recurrent Neural Network with a Word Embedding and LSTM layer is trained.
+The file named train_model.py finds the respective DataFrame upon entering the artist name, preprocesses the data and brings it into the required shape for model training. All setlists are appended to one string which is then split into sequences. The songs names are transformed into unique integers representing them. A Recurrent Neural Network with a Word Embedding and LSTM layer is trained, which learns by looking at the sequences of songs.
 
 ![model_trainer](https://user-images.githubusercontent.com/72550661/109695898-c1ae5e00-7b8c-11eb-86b2-cb39e1f6bdb4.PNG)
 
@@ -38,6 +38,8 @@ This python programme loads the respective model that has been saved during the 
 The model has been developed using Foo Fighters setlists.
 
 Predicted Foo Fighters setlist:
+
+The setlist ends with song no. 19. After that, the sequence is repeated from the beginning.
 
 ![setlist_prediction](https://user-images.githubusercontent.com/72550661/109697273-477ed900-7b8e-11eb-8137-18d9a13585ab.PNG)
 
@@ -75,3 +77,11 @@ Most frequent position of some songs within a concert setlist:
 
 ![best_of_you](https://user-images.githubusercontent.com/72550661/110628444-4c054c00-81a3-11eb-9a20-c23588c0cdc6.PNG)
 
+
+
+
+
+## Ideas for future improvements
+
+- Give the model information about the age of the songs played (as of now, the model understands which songs are played frequently but does not know whether a song is still likely to be played now)
+- Incorporate data about the concert venue
