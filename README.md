@@ -44,35 +44,34 @@ Predicted Foo Fighters setlist:
 
 Some plots that have been created based on the Foo Fighters corpus to visualize the performance of the model:
 
+**Most frequently played Foo Fighters songs**
+
 ![most_frequent_songs](https://user-images.githubusercontent.com/72550661/110627944-d305f480-81a2-11eb-81cb-727215fa9f9c.PNG)
 
-Most frequently played Foo Fighters songs
+
+
+**Top 5 opening songs**
 
 ![openers_2](https://user-images.githubusercontent.com/72550661/110628012-e749f180-81a2-11eb-91a7-c9df8e8c13e0.PNG)
 
-Top 5 opening songs
+
+
 
 
 Most frequent position of some songs within a concert setlist:
 
 
-'The Pretender'
+**'The Pretender'**
 
 ![pretender](https://user-images.githubusercontent.com/72550661/110628308-25dfac00-81a3-11eb-85d4-115c749819ad.PNG)
 
-'Cheer Up Boys (Your Make Up Is Running)'
+
+**'Cheer Up Boys (Your Make Up Is Running)'**
 
 ![Cheer_up](https://user-images.githubusercontent.com/72550661/110628404-414ab700-81a3-11eb-9efe-078facd91869.PNG)
 
-'Best of You'
+
+**'Best of You'**
 
 ![best_of_you](https://user-images.githubusercontent.com/72550661/110628444-4c054c00-81a3-11eb-9a20-c23588c0cdc6.PNG)
-
-
-
-
-
-
-
-
 
