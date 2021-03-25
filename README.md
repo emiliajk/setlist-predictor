@@ -1,6 +1,6 @@
 # Setlist Predictor
 ## Project description
-This Python application scrapes setlists from a chosen artists from setlist.fm, trains a neural network using Tensorflow and predicts a list of songs an artist could play at a concert.
+This Python application scrapes setlists from a chosen artists from setlist.fm, trains a neural network with word embedding and LSTM cells using Tensorflow and predicts a list of songs an artist could play at a concert.
 
 ## Python applications and how to use them
 The project consists of the following 3 Python applications:
