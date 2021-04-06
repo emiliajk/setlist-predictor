@@ -83,5 +83,5 @@ Most frequent position of some songs within a concert setlist:
 
 ## Ideas for future improvements
 
-- Give the model information about the age of the songs played (as of now, the model understands which songs are played frequently but does not know whether a song is still likely to be played now)
+- Give the model information about the age of the songs played (so far, the model understands which songs are played frequently but does not know whether a song is still likely to be played now)
 - Incorporate data about the concert venue
